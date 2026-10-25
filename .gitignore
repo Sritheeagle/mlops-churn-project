@@ -1,0 +1,20 @@
+# Python environments
+.venv/
+venv/
+venv*/
+
+# Python and pytest cache files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local secrets and configuration
+.env
+.env.*
+!.env.example
+.kilo/
+
+# Generated ML artifacts and tracking data
+models/*.joblib
+mlflow.db
+mlruns/

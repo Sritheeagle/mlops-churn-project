@@ -1,0 +1,12 @@
+.git
+.github
+.pytest_cache
+.venv
+venv
+venv312
+__pycache__
+*.py[cod]
+mlflow.db
+mlruns
+models
+tests
